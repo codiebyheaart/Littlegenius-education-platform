@@ -1,0 +1,134 @@
+/* -----------------------------------------
+   Responsive styles
+----------------------------------------- */
+/* -----------------------------------------
+   Big screens
+----------------------------------------- */
+@media all and (max-width: 9999px) {
+  /* Top bar */
+  .top-bar .sidebar-hide {
+    display: none;
+  }
+}
+/* -----------------------------------------
+    Tablets
+----------------------------------------- */
+@media all and (max-width: 991px) {
+  /* Email app */
+  .email-app .email-nav-side {
+    border-right: none;
+    margin-bottom: 15px;
+  }
+  .email-app .email-list {
+    border-left: none;
+    border-right: none;
+    margin-left: 0;
+  }
+  /* Profile */
+  .profile-name {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .panel {
+    margin-bottom: 20px !important;
+  }
+}
+/* -----------------------------------------
+   Most phones
+----------------------------------------- */
+@media all and (max-width: 767px) {
+  /* Top bar */
+  .top-bar .navbar-nav {
+    float: left;
+    margin: 0;
+  }
+  .top-bar .navbar-nav li {
+    display: inline-block;
+    float: left;
+  }
+  .top-bar .navbar-nav li.open .dropdown-menu {
+    position: absolute;
+    float: left;
+    background-color: #fff;
+    border: 1px solid #cfd8dc;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.175);
+    width: 200px;
+  }
+  .top-bar .navbar-nav li.open .dropdown-menu.dropdown-lg {
+    width: 260px;
+  }
+  .top-bar .navbar-nav li.sidebar-hide {
+    display: inline-block;
+  }
+  .top-bar .navbar-nav li.sidebar-toggle {
+    display: none;
+  }
+  .top-bar .navbar-nav.navbar-right {
+    float: right;
+  }
+  /* Forms */
+  .form-horizontal .control-label {
+    margin-bottom: 5px;
+  }
+  /* Tables */
+  .table-responsive {
+    margin-bottom: 0;
+    border: 1px solid #cfd8dc;
+  }
+}
+/* -----------------------------------------
+   Small devices 
+----------------------------------------- */
+@media all and (max-width: 600px) {
+  .top-bar .user-name {
+    display: none;
+  }
+  /* Footer */
+  #footer {
+    text-align: center;
+    height: 70px;
+  }
+  #footer .pull-left,
+  #footer .pull-right {
+    float: none !important;
+  }
+}
+/* -----------------------------------------
+   Small devices 
+----------------------------------------- */
+@media all and (max-width: 500px) {
+  .top-bar .navbar-nav li.page-title {
+    display: none;
+  }
+  /* Wizard */
+  .bwizard.vertical-wizard .bwizard-steps,
+  .bwizard .bwizard-steps {
+    border-right: none;
+    border-bottom: 1px solid #cfd8dc;
+    width: 100%;
+  }
+  .bwizard.vertical-wizard .wizard-form-wrap {
+    padding-left: 0;
+  }
+  .bwizard .bwizard-steps li {
+    display: inline-block;
+    width: 100%;
+    float: left;
+  }
+  /* invoice */
+  .invoice-logo {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .invoice-from ul {
+    text-align: center;
+  }
+}
+/* -----------------------------------------
+   Crappy phones
+----------------------------------------- */
+@media all and (max-width: 400px) {
+  .top-bar-search-form {
+    margin-left: 0 !important;
+  }
+}
